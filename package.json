@@ -29,7 +29,7 @@
    },
    "scripts": {
       "tsc": "tsc",
-      "start": "ts-node src/config/server.ts",
+      "start": "ts-node src/index.ts",
       "dev": "set debug=* && ts-node-dev --respawn --transpile-only ./src/index.ts"
    }
 }
